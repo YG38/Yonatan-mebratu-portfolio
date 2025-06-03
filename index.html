@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yonatan Mebratu | Full-Stack Developer</title>
+    <meta name="description" content="Personal portfolio of Yonatan Mebratu, a Full-Stack Developer specializing in React, Node.js, and modern web technologies." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourwebsite.com/" />
+    <meta property="og:title" content="Yonatan Mebratu | Full-Stack Developer" />
+    <meta property="og:description" content="Personal portfolio of Yonatan Mebratu, a Full-Stack Developer specializing in React, Node.js, and modern web technologies." />
+    <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://yourwebsite.com/" />
+    <meta property="twitter:title" content="Yonatan Mebratu | Full-Stack Developer" />
+    <meta property="twitter:description" content="Personal portfolio of Yonatan Mebratu, a Full-Stack Developer specializing in React, Node.js, and modern web technologies." />
+    <meta property="twitter:image" content="https://yourwebsite.com/og-image.jpg" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="YM Portfolio" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/index.css" as="style" />
+    
+    <!-- Preload custom fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
+  </head>
+  <body class="min-h-screen bg-gray-50 dark:bg-dark-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
