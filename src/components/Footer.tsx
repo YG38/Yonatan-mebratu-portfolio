@@ -20,8 +20,8 @@ const Footer = () => {
     {
       name: 'Telegram',
       icon: <Smartphone className="h-5 w-5" />,
-      href: 'https://twitter.com/yourusername',
-      ariaLabel: 'Twitter profile'
+      href: 'https://t.me/yoni2m',
+      ariaLabel: 'Telegram profile'
     },
     {
       name: 'Email',
